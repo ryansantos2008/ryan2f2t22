@@ -1,0 +1,36 @@
+body{
+    background-color: #ebecce;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco);
+}
+
+.menu-hamburguer{
+   width: 24px;
+   height: 24px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-position: center ;
+    background-image: url(../img/AluraBooks/Menu.svg);
+}
+
+.menu-lista{
+    display: none;
+}
+
+.seletor-menu:checked ~ .menu-lista{
+    display: block;
+}
+
+ .menu-lista-item, .menu-lista-titulo{
+    background-color: white;
+    padding: 1em;
+ }
+.menu-lista-titulo{
+    color: var(--laranja);
+}
