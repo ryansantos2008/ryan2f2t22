@@ -21,6 +21,10 @@ body{
 
 .menu-lista{
     display: none;
+    position: absolute;
+    width: 60vw;
+    text-transform: uppercase;
+    
 }
 
 .seletor-menu:checked ~ .menu-lista{
