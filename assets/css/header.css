@@ -38,3 +38,10 @@ body{
 .menu-lista-titulo{
     color: var(--laranja);
 }
+.menu-lista-link{
+    background: Var(--azul-degrade--);
+  --webkit-bacground-clip:text;
+  --webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-transform: uppercase;
+}
