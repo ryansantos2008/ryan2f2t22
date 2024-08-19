@@ -58,9 +58,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="assets/img/AluraBooks/ApacheKafka.png" alt=""></div>
                 <div class="swiper-slide"><img src="assets/img/AluraBooks/Liderança.png" alt=""></div>
-                <div class="swiper-class"><img src="assets/img/AluraBooks/Javascript.png" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/AluraBooks/Guia Front-end.png" alt="" srcset=""></div>
-                <div class="swiper-slide"><img src="assets/img/AluraBooks/Portugol.png" alt="" srcset=""></div>
+                <div class="swiper-slide"><img src="assets/img/AluraBooks/Javascript.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/AluraBooks/Guia Front-end.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/AluraBooks/Portugol.png" alt="" ></div>
                 <div class="swiper-slide"><img src="assets/img/AluraBooks/Nodejs.svg" alt=""></div>
             
 
@@ -72,11 +72,16 @@
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>const swiper = new Swiper('.swiper', {
+    <script>
+        const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
         slidesPerView: 3,
+        pagination:{
+            el:".swiper-pagination",
+            type:"bullets",
+        }
         },
       );
-      </script>
+    </script>
 </body>
 </html>
